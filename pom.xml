@@ -7,7 +7,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
 <version>1.0.0</version>
 <name>org.wso2.carbon.mediator</name>
 <url>http://maven.apache.org</url>
-
 <repositories>
        <repository>
            <id>wso2-maven2-repository</id>
@@ -38,7 +37,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
            </plugin>
        </plugins>
    </build>
-   
 
    <dependencies>
        <dependency>
