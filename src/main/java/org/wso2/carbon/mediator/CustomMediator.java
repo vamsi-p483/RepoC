@@ -24,8 +24,7 @@ public class CustomMediator implements Mediator {
 
 
     private static final Log log = LogFactory.getLog(CustomMediator.class);
-
-
+	log.info("Stating Log Mediater");
 
     public CustomMediator(){}
 
@@ -65,5 +64,6 @@ public class CustomMediator implements Mediator {
     public String getDescription() {
         return null;
     }
+	log.info("Ending Log Mediater");
 }
 
