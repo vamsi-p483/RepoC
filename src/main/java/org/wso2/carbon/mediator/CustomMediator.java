@@ -22,33 +22,48 @@ import javax.xml.namespace.QName;
 
 public class CustomMediator implements Mediator {
 
+
     private static final Log log = LogFactory.getLog(CustomMediator.class);
-	log.info("Stating Log Mediater");
+
+
+
     public CustomMediator(){}
+
+
     public boolean mediate(MessageContext mc) {
         mc.setProperty("message","hello world!" );
         return true;
     }
+
+
     public String getType() {
         return null;
     }
+
     public void setTraceState(int i) {
 
     }
+
     public boolean isContentAware() {
         return false;
     }
+
+
     public int getTraceState() {
 
         return 0;
 
     }
+
+
+
+
     public void setDescription(String s) {
 
     }
+
     public String getDescription() {
         return null;
     }
-	log.info("Ending Log Mediater");
 }
 
